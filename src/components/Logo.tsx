@@ -1,11 +1,28 @@
-export default function Logo({ className = "h-8 w-8" }: { className?: string }) {
+import Image from "next/image";
+
+type LogoProps = {
+  className?: string;
+  src?: string;
+  alt?: string;
+  priority?: boolean;
+};
+
+export default function Logo({
+  className = "h-8 w-8",
+  src = "/logo.png",
+  alt = "Company logo",
+  priority = false,
+}: LogoProps) {
   return (
-    <svg className={className} viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="50" cy="50" r="45" stroke="#315E47" strokeWidth="3" fill="#F6F4EE"/>
-      <path d="M 30 40 Q 50 20 70 40 L 70 60 Q 50 80 30 60 Z" fill="#315E47"/>
-      <path d="M 50 35 L 50 50 L 60 45" stroke="#50E3E3" strokeWidth="3" strokeLinecap="round"/>
-      <circle cx="50" cy="50" r="3" fill="#50E3E3"/>
-      <path d="M 65 30 Q 75 20 85 30 Q 75 40 65 30" fill="none" stroke="#315E47" strokeWidth="2"/>
-    </svg>
+    <div className={`relative ${className}`}>
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        sizes="(max-width: 768px) 48px, 96px"
+        className="object-contain"
+        priority={priority}
+      />
+    </div>
   );
 }
