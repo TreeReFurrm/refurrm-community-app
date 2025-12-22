@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Camera, TrendingUp, AlertCircle, Upload } from 'lucide-react';
+import { X, Camera, TrendingUp, AlertCircle } from 'lucide-react';
 import { ValuationResult } from '../types';
 
 interface ValueEstimatorModalProps {

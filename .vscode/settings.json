@@ -1,0 +1,10 @@
+{
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/.github/workflows/ci.yml"
+            ],
+            "url": "schemaURL"
+        }
+    ]
+}

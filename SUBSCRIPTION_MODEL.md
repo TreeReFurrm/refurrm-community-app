@@ -102,6 +102,7 @@ ReFURRM uses a hybrid model combining free community access, paid marketplace to
 - `src/components/SubscriptionPlans.tsx` - Displays pricing and handles upgrades
 - `src/components/ScannerTools.tsx` - Checks `subscription === 'pro'` for access
 - `src/pages/Signup.tsx` - Excludes Ambassador from role selection (invitation-only)
+- `src/pages/Profile.tsx` - Displays current subscription status and upgrade/manage options
 
 ### Backend (TODO)
 - Stripe webhook handler for subscription events

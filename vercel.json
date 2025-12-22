@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/((?!.*\\.).*)",
-      "destination": "/"
+      "source": "/api/genkit/:path*", 
+      "destination": "/api/genkit/:path*" 
+    },
+    {
+      "source": "/:path*", 
+      "destination": "/:path*" 
     }
   ]
 }

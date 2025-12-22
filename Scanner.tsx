@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
+import { Button, buttonVariants } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -9,6 +9,7 @@ import { useAppContext } from '@/contexts/AppContext';
 import { supabase } from '@/lib/supabase';
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
+import { Link } from 'react-router-dom';
 
 interface AuctionListing {
   id: string;
@@ -163,7 +164,9 @@ const Scanner = () => {
               <h3 className="text-2xl font-bold mb-2">Upgrade to Pro</h3>
               <p className="text-gray-600 mb-4">Access AI-powered auction analysis and maximize your rescue potential</p>
               <Button size="lg" className="bg-[#50E3E3] hover:bg-[#315E47]">Upgrade Now</Button>
+              <Link to="/community" className={buttonVariants({ variant: "default", size: "lg", className: "bg-[#50E3E3] hover:bg-[#315E47]" })}>Upgrade Now</Link>
             </CardContent>
+
           </Card>
         )}
       </div>
