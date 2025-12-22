@@ -6,10 +6,10 @@
   "rootMainFiles": [],
   "pages": {
     "/MobileCamper": [
-      "static/chunks/7721e07df7f67375.js",
-      "static/chunks/da2d39d326591993.js",
-      "static/chunks/4aef338b256c17e2.js",
-      "static/chunks/turbopack-e967bad819c7bde9.js"
+      "static/chunks/384983d9dca03622.js",
+      "static/chunks/e9f4eba6826d0c4c.js",
+      "static/chunks/bc5d0eb48dc6d3fa.js",
+      "static/chunks/turbopack-e1e65d3a08511364.js"
     ]
   },
   "ampFirstPages": []
