@@ -6,16 +6,16 @@
   "rootMainFiles": [],
   "pages": {
     "/Shop": [
-      "static/chunks/bb2e03630a4766f2.js",
-      "static/chunks/de0304176808a59c.js",
-      "static/chunks/a5d4d4e09b305528.js",
-      "static/chunks/40c94ae05ef0a875.js",
-      "static/chunks/043cb4cc85084f91.js",
-      "static/chunks/6b41a7e58c3f3251.js",
-      "static/chunks/268568af70c86130.js",
-      "static/chunks/355189f4a2462812.js",
-      "static/chunks/a84a67ae1b438fa9.js",
-      "static/chunks/turbopack-e7444399b4be9a6a.js"
+      "static/chunks/1bd3eb7b9418ab03.js",
+      "static/chunks/2f17c7acd5d4c3d9.js",
+      "static/chunks/1ad1ea3f9fc7b41e.js",
+      "static/chunks/f91554ecd561badb.js",
+      "static/chunks/198e45b8e909cea7.js",
+      "static/chunks/b0ee37af3e870210.js",
+      "static/chunks/cf7f15a4c631e619.js",
+      "static/chunks/31600722460cab89.js",
+      "static/chunks/4d3ba6a583439048.js",
+      "static/chunks/turbopack-8b7541218a3ab802.js"
     ]
   },
   "ampFirstPages": []

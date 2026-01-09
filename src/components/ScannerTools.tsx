@@ -5,7 +5,7 @@ import { Badge } from './ui/badge';
 import { Camera, Package, TrendingUp, Lock, AlertCircle, Loader2 } from 'lucide-react';
 import { useAppContext } from '@/contexts/AppContext';
 import { supabase } from '@/lib/supabase';
-import { Alert, AlertDescription } from './ui/alert';
+import { Alert, AlertDescription } from './ui/alert-dialog';
 
 interface EbayResult {
   item: string;
