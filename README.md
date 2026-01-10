@@ -3,7 +3,7 @@
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 # ReFURRM
 
-ReFURRM is an ethical resale and recovery company built to reform the storage unit industry by putting people before profit.
+ReFURRM is a platform dedicated to rescuing pets from storage units and connecting them with loving homes. It provides tools for ethical buyers, volunteers, and families to facilitate the rescue and rehoming process.
 
 ## Quick Start
 
