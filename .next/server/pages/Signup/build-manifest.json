@@ -6,15 +6,16 @@
   "rootMainFiles": [],
   "pages": {
     "/Signup": [
-      "static/chunks/ccbe99c5288ef476.js",
-      "static/chunks/f91554ecd561badb.js",
-      "static/chunks/31600722460cab89.js",
-      "static/chunks/1c674d07b5166de3.js",
+      "static/chunks/b23409b75f084088.js",
+      "static/chunks/b2c46fe989ca5051.js",
+      "static/chunks/7bec9f3cba93376f.js",
+      "static/chunks/95c0c64b8b8b0b82.js",
+      "static/chunks/cd764012af9c0feb.js",
+      "static/chunks/dfe51af627612e74.js",
+      "static/chunks/37f58d159bf06d38.js",
       "static/chunks/b0ee37af3e870210.js",
-      "static/chunks/198e45b8e909cea7.js",
-      "static/chunks/1ad1ea3f9fc7b41e.js",
       "static/chunks/be260e12d4c3c0a3.js",
-      "static/chunks/turbopack-9898c95d19afb14e.js"
+      "static/chunks/turbopack-87cd7c0aea16d86f.js"
     ]
   },
   "ampFirstPages": []
