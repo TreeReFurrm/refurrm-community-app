@@ -2,6 +2,12 @@
 
 ReFURRM is a platform dedicated to rescuing pets from storage units and connecting them with loving homes. It provides tools for ethical buyers, volunteers, and families to facilitate the rescue and rehoming process.
 
+---
+
+## 👉 **[START_HERE.md](START_HERE.md)** ⭐ Read This First!
+
+---
+
 ## 🚨 IMPORTANT: Action Required
 
 This repository has been **configured and ready for deployment**, but contains duplicate files that need to be removed first.
